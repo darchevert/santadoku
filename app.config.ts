@@ -8,6 +8,7 @@ import { ANDROID_APP_ID, IOS_APP_ID } from './src/config/adIds';
 const config: ExpoConfig = {
   name: 'Santadoku',
   slug: 'santadoku',
+  extra: { eas: { projectId: 'b9b85f16-8963-46ea-81bd-43500aca66e5' } },
   version: '1.0.0',
   orientation: 'portrait',
   icon: './assets/icon.png',
